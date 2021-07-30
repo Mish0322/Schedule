@@ -15,6 +15,9 @@
 		AE6F347726B38277003CCE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F347526B38277003CCE46 /* LaunchScreen.storyboard */; };
 		AE6F348226B38277003CCE46 /* ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F348126B38277003CCE46 /* ScheduleTests.swift */; };
 		AE6F348D26B38277003CCE46 /* ScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F348C26B38277003CCE46 /* ScheduleUITests.swift */; };
+		AE6F349E26B38581003CCE46 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F349D26B38581003CCE46 /* Launch Screen.storyboard */; };
+		AE6F349F26B38582003CCE46 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F349D26B38581003CCE46 /* Launch Screen.storyboard */; };
+		AE6F34A026B38582003CCE46 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F349D26B38581003CCE46 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		AE6F348826B38277003CCE46 /* ScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F348C26B38277003CCE46 /* ScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleUITests.swift; sourceTree = "<group>"; };
 		AE6F348E26B38277003CCE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6F349D26B38581003CCE46 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		AE6F345E26B38274003CCE46 = {
 			isa = PBXGroup;
 			children = (
+				AE6F349D26B38581003CCE46 /* Launch Screen.storyboard */,
 				AE6F346926B38274003CCE46 /* Schedule */,
 				AE6F348026B38277003CCE46 /* ScheduleTests */,
 				AE6F348B26B38277003CCE46 /* ScheduleUITests */,
@@ -233,6 +238,7 @@
 			files = (
 				AE6F347726B38277003CCE46 /* LaunchScreen.storyboard in Resources */,
 				AE6F347426B38277003CCE46 /* Assets.xcassets in Resources */,
+				AE6F349E26B38581003CCE46 /* Launch Screen.storyboard in Resources */,
 				AE6F347226B38275003CCE46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6F349F26B38582003CCE46 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6F34A026B38582003CCE46 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
